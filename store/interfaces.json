@@ -1,0 +1,6 @@
+{
+  "promotion-block": {
+    "component": "PromotionBlock",
+    "render": "client"
+  }
+}

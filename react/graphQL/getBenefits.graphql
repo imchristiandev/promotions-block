@@ -1,0 +1,11 @@
+query productBenefits($id: String, $seller:String, $quantity:String){
+  benefits(items:[{
+    id: $id,
+    seller: $seller,
+    quantity: $quantity
+  }]) {
+    name,
+    teaserType,
+    featured
+  }
+}
